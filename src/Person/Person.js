@@ -1,9 +1,11 @@
-const Person = (props) => {
+import React from 'react'
+
+const Person = () => {
     return (
-        <header>
-            <h1>Task Tracker {Date.t}</h1>
-        </header>
+        <div>
+            <p>I am a person</p>
+        </div>
     )
 }
 
-export default Person
+export default Person;
